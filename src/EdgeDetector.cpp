@@ -15,9 +15,9 @@ int main()
 	cv::Mat originalInputImage = detector.getInputImage("data/Image_4.png");
 
 	/*
-     We are calling the functions of EdgeDetector to get the final image
-     superimposed with edge detected in green color on the original image.
-     We will find more detail about the functions inside the EdgeDetector class definition.
+     	We are calling the functions of EdgeDetector to get the final image
+     	superimposed with edge detected in green color on the original image.
+     	We will find more detail about the functions inside the EdgeDetector class definition.
 	 */
 
 	detector.showImage(
