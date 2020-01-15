@@ -1,4 +1,4 @@
-# The project Canny Edge Detector is built with Ubuntu 18.04.3 LTS and CMake version 3.10.2 with C++
+# The project Canny Edge Detector built with Ubuntu 18.04.3 LTS and CMake version 3.10.2 with C++.
 
 The "CMakeLists.txt" file has already OpenCV libraries included for Linux directories. "CMakeLists.txt" library directories have to be changed for windows or any other operating system. We have already built the program using CMake, this step varies between platform to platform, that's why we are not describing in detail about the process.
 
