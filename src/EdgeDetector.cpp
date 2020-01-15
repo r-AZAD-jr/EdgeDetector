@@ -15,11 +15,11 @@ int main()
 	cv::Mat originalInputImage = detector.getInputImage("data/Image_4.png");
 
 	/*
-     	 We are calling the functions of EdgeDetector to get the final image
-     	 superimposed with edge detected in green color on the original image.
-     	 We will find more detail about the functions inside the EdgeDetector class definition.
-	*/
-	
+	 We are calling the functions of EdgeDetector to get the final image
+	 superimposed with edge detected in green color on the original image.
+	 We will find more detail about the functions inside the EdgeDetector class definition.
+	 */
+
 	/*
 	 "applyingCannyEdgeDetector" class takes the original image as in input parameters and gives
 	 back the address of detected edges in cv::Mat* in Gray Scale.
@@ -28,9 +28,9 @@ int main()
 	 detected edges in the Gray Scale and the second one is the address of the original image.
 	 It gives us back an image with edges detected in green color superimposed with the original image.
 
-	Third class "showImage" is going to show the image and wait for a keystroke form unser
-	and then terminate the GUI with picture.
-	*/
+	 Third class "showImage" is going to show the image and wait for a keystroke form unser
+	 and then terminate the GUI with picture.
+	 */
 
 	detector.showImage(
 			detector.colorChangeAndSuperimposed(
