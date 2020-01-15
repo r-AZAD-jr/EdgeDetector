@@ -28,8 +28,8 @@ int main()
 	 detected edges in the Gray Scale and the second one is the address of the original image.
 	 It gives us back an image with edges detected in green color superimposed with the original image.
 
-	 Third class "showImage" is going to show the image and wait for a keystroke form unser
-	 and then terminate the GUI with picture.
+	 Third class "showImage" is going to show the image and wait for a keystroke form user
+	 and then terminate the GUI with the picture.
 	 */
 
 	detector.showImage(
